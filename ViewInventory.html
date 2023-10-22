@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Inventory</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <style>
+        
+        .menu-link {
+            position: fixed;
+            bottom: 10px; 
+            left: 10px; 
+        }
+    
+        .menu-link button {
+            background-color: #0056b3;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease;
+        }
+    
+        .menu-link button:hover {
+            background-color: hsl(211, 96%, 61%);
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>View Inventory</h1>
+    <table>
+        <tr>
+            <th>Product Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+        <!-- Loop through your product data and generate rows -->
+        <tr>
+            <td>Product 1</td>
+            <td>Description 1</td>
+            <td>$10.00</td>
+            <td>100</td>
+        </tr>
+        <!-- Repeat rows for each product -->
+    </table>
+    <div class="menu-link">
+        <button onclick="location.href='index.html'">Return to Menu</button>
+    </div>
+    
+</body>
+</html>
