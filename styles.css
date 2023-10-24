@@ -1,7 +1,20 @@
+header {
+    background-color: #596e79;
+    color: #fff; /* Set text color to white for better contrast */
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Style the header text if needed */
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
 
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(90deg, #cfd9df 0%, #e2ebf0 100%); 
+    /* background: linear-gradient(180deg, #cfd9df 0%, #e2ebf0 100%) 0 0/100% 100vh;  */
+    background: linear-gradient(180deg, #d7d2cc 0%, #304352 100%) 0 0/100% 100vh; 
     color: #333;
 }
 
@@ -15,7 +28,7 @@ h1 {
 
 /* Give buttons a 3D effect and a hover effect */
 button {
-    background-color: #d3556c;
+    background-color: #142d4c;
     color: #fff;
     border: none;
     padding: 12px 24px;
@@ -26,7 +39,7 @@ button {
 }
 
 button:hover {
-    background-color: #FF3355;
+    background-color: hsl(350, 71%, 56%);
 }
 
 /* Style form elements with rounded corners */
