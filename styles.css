@@ -14,7 +14,7 @@ header h1 {
 body {
     font-family: 'Arial', sans-serif;
     /* background: linear-gradient(180deg, #cfd9df 0%, #e2ebf0 100%) 0 0/100% 100vh;  */
-    background: linear-gradient(180deg, #d7d2cc 0%, #304352 100%) 0 0/100% 100vh; 
+    background-color:  #d7d2cc; 
     color: #333;
 }
 
@@ -39,7 +39,7 @@ button {
 }
 
 button:hover {
-    background-color: hsl(350, 71%, 56%);
+    background-color: hsl(211, 96%, 61%);
 }
 
 /* Style form elements with rounded corners */
